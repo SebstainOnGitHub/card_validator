@@ -23,6 +23,11 @@ func handleCheck(w http.ResponseWriter, r *http.Request) {
 }
 
 func handleCheckAndSuggest(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodGet {
+		respondWithError(w, http.StatusBadRequest, "invalid method")
+		return
+	}
+	
 	card := returnCard(r)
 
 	computedCD, realCD := returnCDs(card)
