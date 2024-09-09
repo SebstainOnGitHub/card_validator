@@ -1,3 +1,3 @@
-module example.com/validator
+module example.com/card_validator
 
 go 1.22.6
