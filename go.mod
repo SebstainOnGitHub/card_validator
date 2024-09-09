@@ -1,3 +1,3 @@
-module example.com/card_validator
+module github.com/SebstainOnGitHub/card_validator
 
 go 1.22.6
