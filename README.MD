@@ -26,7 +26,7 @@ This is a simple Go-based HTTP server that provides two endpoints to validate cr
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/card-validator-api.git
+   git clone https://github.com/sebstainsgit/card-validator-api.git
    cd card-validator-api
 
 2. **Build the project**: Ensure Go is installed on your machine, then run:
